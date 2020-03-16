@@ -1,0 +1,29 @@
+{
+  "name": "threejs-typescript",
+  "version": "1.0.0",
+  "description": "A small example how to threejs with typescript.",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "es-dev-server --file-extensions .ts --node-resolve --babel --open --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soelen/threejs-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soelen/threejs-typescript/issues"
+  },
+  "homepage": "https://github.com/soelen/threejs-typescript#readme",
+  "dependencies": {
+    "three": "^0.114.0"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.8.3",
+    "es-dev-server": "^1.45.1",
+    "typescript": "^3.9.0-dev.20200316"
+  }
+}
